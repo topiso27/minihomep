@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Ownglyph_corncorn-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+   font-family: 'Ownglyph_corncorn-Rg', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: rgba(237, 232, 232, 0.8);
+    padding: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.header {
+    background: #c9a69a;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+
+.menu {
+    margin: 20px 0;
+}
+
+.menu button {
+    background: #dab8ac;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-family: 'Ownglyph_corncorn-Rg', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.menu button:hover {
+    background: #be998c;
+}
+
+
+.content {
+    margin-top: 20px;
+}
+
+.content h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+#banner-img {
+    width: 90%; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+.content p {
+    font-size: 20px;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .menu button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
