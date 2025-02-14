@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'NeoDunggeunmoPro-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+    font-family: 'Ownglyph_ParkDaHyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: 'NeoDunggeunmoPro-Regular', Arial, sans-serif;
+    font-family: 'Ownglyph_ParkDaHyun', Arial, sans-serif;
     background-color: #f6f1ef;
     margin: 0;
     padding: 0;
@@ -166,8 +166,8 @@ header {
 .copyright {
     font-size: 15px;
     color: #777;
-    margin-top: 85px;
-    margin-left: 30px;
+    margin-top: 73px;
+    margin-left: 70px;
 }
 
 /* 메뉴 스타일 */
@@ -193,7 +193,7 @@ header {
     cursor: pointer;
     text-align: left;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0);
-    font-family: 'NeoDunggeunmoPro-Regular';
+    font-family: 'Ownglyph_ParkDaHyun';
     position: relative;
     font-size: 23px;
 }
@@ -220,7 +220,7 @@ header {
     cursor: pointer;
     text-align: left;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    font-family: 'NeoDunggeunmoPro-Regular';
+    font-family: 'Ownglyph_ParkDaHyun';
     color: #ffffff;
     position: relative;
     font-size: 23px;
