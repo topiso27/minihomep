@@ -7,12 +7,17 @@
 
 body {
     font-family: 'LeeSeoyun', Arial, sans-serif;
-    background-color: #f6ebe7;
+    
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     cursor: url('nat1051.cur'), pointer;
+
+    background-image: url('breadbackground4.jpg'); /* 프로젝트 폴더 내 images 폴더 */
+    background-size: cover; /* 화면에 꽉 차도록 설정 */
+    background-position: center; /* 중앙 정렬 */
+    background-repeat: no-repeat; /* 반복 없음 */
 }
 
 .container {
@@ -234,7 +239,7 @@ header {
 .menu button {
     width: 120px;
     height: 70px;
-    background-color: #c49c8c;
+    background-color: #c4a28c;
     padding: 10px;
 
     border-left: 0;
