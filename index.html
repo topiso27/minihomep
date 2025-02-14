@@ -9,43 +9,45 @@
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
+        <div class="sidebar">   
             <img src="2d1n1.gif" alt="프로필 사진" class="profile-img">
-            <h1 class="username">동구랑땡전</h1>
-            <p class="greeting">안녕하세요.<br><span class="bold">동구랑땡전</span>의 미니홈피입니다.</p>
-            <p class="oneword">"윤시윤 잘생김"</p>
-            <!-- 음악 플레이어 제거 및 paper1.jpg 클릭 이벤트 추가 -->
+            <h1 class="username">💡동구랑땡전💡</h1>
+            <h1 class="greeting">🎧배경 음악🎧</h1>
+            <p class="oneword">내게 오는 길 - 성시경</p>
             <div class="turntable-player">
                 <div class="turntable">
                     <img src="cd2.jpg" alt="앨범 커버" class="album-cover" id="album-cover">
                     <div class="turntable-arm"></div>
                 </div>
-                <!-- 숨겨진 오디오 태그 -->
                 <audio id="audio-player" loop>
                     <source src="thewaytome.mp3" type="audio/mp3">
                 </audio>
                 <div class="main">
-                    <button>메인</button>
+                    <button>홈화면</button>
                 </div>
                 <div class="menu">
                     <button>일기장</button>
-                    <button>사진</button>
+                    <button>사진첩</button>
                     <button>방명록</button>
                 </div>
             </div>
         </div>
+
         <div class="main-content">
             <header>
-                <span class="title"><b>동 구 랑 땡 전</b> 의 미 니 홈 피</span>
+                <span class="title">yunrangdd's mini home page💌</span>
             </header>
-            <section class="banner">
-                <h3>2 0 2 5 0 2 1 4 ~</h3>
-                <img src="junhyeok2.jpg" alt="배너 사진" class="banner-img">
-                <p class="caption">"사랑한다는 그 말, 아껴둘걸 그랬죠.
-                                    <br>이제 어떻게 내 맘, 표현해야 하나"</p>
-                <P class="copyright">[bgm: 성시경(SUNG SI KYUNG)－내게오는길(THE ROAD TO ME) / Piano Cover / Sheet-Piano in U]</P>
+
+            <section class="banner1">
+                <p class="notice"><b>소개</b><br>안녕하세요. 동구랑땡전의 미니홈피입니다!<br>일상, 덕질 올려요.</p>
             </section>
-               
+
+            <section class="banner2">
+                <p id="current-time" class="time-display"></p> <!-- 현재 시간이 들어갈 부분 -->
+                <img src="junhyeok2.jpg" alt="배너 사진" class="banner-img">
+                <p class="caption">✨내가 윤시윤 팬이다. 윤시윤은 잘생겼다.✨</p>
+                <p class="copyright">[bgm: 성시경(SUNG SI KYUNG)－내게오는길(THE ROAD TO ME) / Piano Cover / Sheet-Piano in U]</p>
+            </section>
         </div>
     </div>
 </body>

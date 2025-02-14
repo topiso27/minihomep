@@ -1,12 +1,11 @@
 @font-face {
-    font-family: 'Ownglyph_ParkDaHyun';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+    font-family: 'LeeSeoyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 body {
-    font-family: 'Ownglyph_ParkDaHyun', Arial, sans-serif;
+    font-family: 'LeeSeoyun', Arial, sans-serif;
     background-color: #f1e2db;
     margin: 0;
     padding: 0;
@@ -19,7 +18,7 @@ body {
     width: 960px;
     height: 640px;
     background: #ffffff;
-    border: 5px solid#69605c;
+    border: 2px solid#69605c;
     padding: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -34,8 +33,8 @@ body {
     text-align: center;
     padding: 15px;
     background-color: #f4ebe7 ;
-    border: 5px solid #69605c;
-    border-radius: 10px 0px 0px 10px;
+    border: 2px solid #69605c;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .profile-img {
@@ -44,6 +43,7 @@ body {
     margin-bottom: 15px;
     margin-top: 15px;
     border-radius: 10px;
+    border: 3px solid #353534;
 }
 
 .bold {
@@ -53,19 +53,21 @@ body {
 .username {
     font-weight: bold;
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: 30px;
+    border-bottom: 3px solid #7b6858;
+    padding-bottom: 10px;
 }
 
 .greeting {
-    font-size: 18px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
 .oneword {
     color: #7b6858;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 /*음악 플레이어*/
 /* 턴테이블 스타일 */
@@ -127,42 +129,59 @@ body {
 
 header {
     background-color: #efd6c9;
-    padding: 15px;
-    border-top: 5px solid #69605c;
-    border-right: 5px solid #69605c;
-    border-radius: 0px 10px 0px 0px;
+    padding: 10px;
+    border: 2px solid #69605c;
+    border-radius: 5px 5px 0px 0px;
+    margin-left: 10px;
 }
 
 .title {
     font-size: 20px;
 }
 
-.banner {
-    width: 650.5px;
-    height: 573px;
-    border: 5px solid #69605c
+
+.banner1 {
+    width: 647px;
+    height: 124px;
+    border: 2px solid #69605c;
+    margin-left: 10px;
 }
 
-.banner h3 {
-    font-size: 18px;
+.notice {
+    font-size: 25px;
+    text-align: center;
+}
+
+.banner2 {
+    width: 647px;
+    height: 445px;
+    border: 2px solid #69605c;
+    margin-left: 10px;
     margin-top: 10px;
-    border-bottom: 5px solid #69605c;
-    padding-bottom: 5px;
-    padding-left: 22.5px;
 }
 
-.banner img {
-    width: 90%;
-    border-radius: 10px;
-    margin-top: 15px;
-    margin-left: 35px;
-    margin-bottom: 15px;
+.time-display {
+    font-size: 20px;
+    color: #555;
+    text-align: left;
+    font-family: 'LeeSeoyun', cursive;
+    margin-top: 10px;
+    margin-left: 10px;
 }
+
+
+.banner2 img {
+    display: block; margin: auto;
+    width: 80%;
+    border-radius: 5px;
+    border: 3px solid #7b6858;
+}
+
 
 .caption {
     text-align: center;
     color: #555;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .copyright {
@@ -190,14 +209,14 @@ header {
     padding: 15px;
 
     border-left: 0;
-    border-top: 5px solid#69605c;
-    border-right: 5px solid#69605c;
-    border-bottom: 5px solid#69605c;
+    border-top: 2px solid#69605c;
+    border-right: 2px solid#69605c;
+    border-bottom: 2px solid#69605c;
 
     cursor: pointer;
     text-align: left;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0);
-    font-family: 'Ownglyph_ParkDaHyun';
+    font-family: 'LeeSeoyun';
     position: relative;
     font-size: 23px;
 
@@ -222,14 +241,14 @@ header {
     padding: 10px;
 
     border-left: 0;
-    border-top: 5px solid#69605c;
-    border-right: 5px solid#69605c;
-    border-bottom: 5px solid#69605c;
+    border-top: 2px solid#69605c;
+    border-right: 2px solid#69605c;
+    border-bottom: 2px solid#69605c;
 
     cursor: pointer;
     text-align: left;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    font-family: 'Ownglyph_ParkDaHyun';
+    font-family: 'LeeSeoyun';
     color: #ffffff;
     position: relative;
     font-size: 23px;
