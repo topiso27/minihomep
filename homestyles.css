@@ -4,20 +4,21 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body {
     font-family: 'LeeSeoyun', Arial, sans-serif;
-    background-color: #f1e2db;
+    background-color: #f6ebe7;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
+    cursor: url('nat1051.cur'), pointer;
 }
-
 
 .container {
     width: 960px;
     height: 640px;
-    background: #ffffff;
+    background: #fbf7f5;
     border: 2px solid#69605c;
     padding: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
@@ -32,7 +33,7 @@ body {
     height: 600px;
     text-align: center;
     padding: 15px;
-    background-color: #f4ebe7 ;
+    background-color: #efe2dc ;
     border: 2px solid #69605c;
     border-radius: 5px 0px 0px 5px;
 }
@@ -123,12 +124,13 @@ body {
 
 /*음악 플레이어*/
 
+
 .main-content {
     margin-left: 300px;
 }
 
 header {
-    background-color: #efd6c9;
+    background-color: #dfcabf;
     padding: 10px;
     border: 2px solid #69605c;
     border-radius: 5px 5px 0px 0px;
@@ -145,6 +147,7 @@ header {
     height: 124px;
     border: 2px solid #69605c;
     margin-left: 10px;
+    background-color: #ffffff;
 }
 
 .notice {
@@ -158,6 +161,8 @@ header {
     border: 2px solid #69605c;
     margin-left: 10px;
     margin-top: 10px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #ffffff;
 }
 
 .time-display {
@@ -184,13 +189,6 @@ header {
     font-size: 30px;
 }
 
-.copyright {
-    font-size: 15px;
-    color: #777;
-    margin-top: 75px;
-    margin-left: 70px;
-}
-
 /* 메뉴 스타일 */
 
 .main {
@@ -205,7 +203,7 @@ header {
 .main button {
     width: 100px;
     height: 70px;
-    background-color: #ffffff;
+    background-color: #fbf7f5;
     padding: 15px;
 
     border-left: 0;
@@ -213,7 +211,6 @@ header {
     border-right: 2px solid#69605c;
     border-bottom: 2px solid#69605c;
 
-    cursor: pointer;
     text-align: left;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0);
     font-family: 'LeeSeoyun';
@@ -245,7 +242,6 @@ header {
     border-right: 2px solid#69605c;
     border-bottom: 2px solid#69605c;
 
-    cursor: pointer;
     text-align: left;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     font-family: 'LeeSeoyun';
