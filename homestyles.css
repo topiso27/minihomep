@@ -1,23 +1,28 @@
 @font-face {
-    font-family: 'Ownglyph_corncorn-Rg';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');
+    font-family: 'NeoDunggeunmoPro-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: 'Ownglyph_corncorn-RG', Arial, sans-serif;
+    font-family: 'NeoDunggeunmoPro-Regular', Arial, sans-serif;
     background-color: #f6f1ef;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
+
+    align-items: flex-start;
+    height: 100vh;
 }
+
 
 .container {
     width: 800px;
-    background: white;
-    border: 5px solid #e4d5c0;
+    height: 530px;
+    background: #ffffff;
+    border: 5px outset #e4cec0;
     padding: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -25,26 +30,38 @@ body {
 
 .sidebar {
     float: left;
-    width: 200px;
-    height: 550px;
+    width: 192px;
+    height: 500px;
     text-align: center;
     padding: 10px;
     background-color: #faf6f3;
-    border-right: 2px solid #e4cec0;
+    border: 5px outset #e4cec0;
     border-radius: 10px 0px 0px 10px;
 }
 
 .profile-img {
     width: 130px auto;
     height: 130px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 10px;
     border-radius: 10px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.username {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-bottom: 2px solid #e4d3c0;
+}
+
 .greeting {
-    font-size: 19px;
-    margin-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
 .oneword {
@@ -74,6 +91,20 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.album-cover.playing {
+    animation: rotate 5s linear infinite;
+}
+
+/* 회전 애니메이션 */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /* 턴테이블의 팔 (Arm) */
 .turntable-arm {
     width: 10px;
@@ -100,17 +131,6 @@ body {
 }
 /*음악 플레이어*/
 
-.bold {
-    font-weight: bold;
-}
-
-.username {
-    font-weight: bold;
-    margin-top: 10px;
-    font-size: 30px;
-    border-bottom: 2px solid #e4d3c0;
-}
-
 .main-content {
     margin-left: 220px;
 }
@@ -119,12 +139,18 @@ header {
     background-color: #f7efea;
     padding: 10px;
     font-size: 14px;
-    border-bottom: 2px solid #e4d3c0;
+    border: 5px outset #e4d3c0;
     border-radius: 0px 10px 0px 0px;
 }
 
 .title {
     font-size: 15px;
+}
+
+.banner {
+    width: 570px;
+    height: 475px;
+    border: 5px outset #e4cec0
 }
 
 .banner h3 {
@@ -136,9 +162,10 @@ header {
 }
 
 .banner img {
-    width: 95%;
+    width: 90%;
     border-radius: 10px;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .caption {
@@ -148,29 +175,60 @@ header {
 }
 
 /* 메뉴 스타일 */
-.menu {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    margin-right: 330px;
-    display: flex;
+
+.main {
+    position: relative;  /* 상단에서 20px 만큼 떨어진 위치 */
     flex-direction: column;
+    display: flex;
     gap: 10px;
+    left: 804.5px;
+    bottom: 460px;
 }
 
-.menu button {
-    width: 80px;
-    background-color: #e4cec0;
-    border: none;
+
+.main button {
+    width: 75px;
+    height: 35px;
+    background-color: #ffffff;
     padding: 10px;
-    border-radius: 5px;
+    border-left: 0;
+    border-top: 5px outset #e4cec0;
+    border-right: 5px outset #e4cec0;
+    border-bottom: 5px outset #e4cec0;
     cursor: pointer;
-    text-align: center;
+    text-align: left;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0);
+    font-family: 'NeoDunggeunmoPro-Regular';
+    position: relative;
+}
+
+.menu {
+    position: relative;  /* 상단에서 20px 만큼 떨어진 위치 */
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    left: 810px;
+    bottom: 450px;
+}
+
+
+.menu button {
+    width: 78.5px;
+    height: 35px;
+    background-color: #b9a69c;
+    padding: 10px;
+    border-left: 0;
+    border-top: 5px outset #e4cec0;
+    border-right: 5px outset #e4cec0;
+    border-bottom: 5px outset #e4cec0;
+    cursor: pointer;
+    text-align: left;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    font-family: 'Ownglyph_corncorn-RG';
+    font-family: 'NeoDunggeunmoPro-Regular';
+    color: #ffffff;
+    position: relative;
 }
 
 .menu button:hover {
-    background-color: #e4cec0;
-    width: 50px;
+    width: 70px;
 }

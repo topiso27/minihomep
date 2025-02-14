@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>동구랑땡의 미니홈피</title>
+    <title>동구랑땡전전의 미니홈피</title>
     <link rel="stylesheet" href="homestyles.css">
-    <script scr="homescript.js"></script>
+    <script src="homescript.js" defer></script> <!-- js 파일 연결 -->
 </head>
 <body>
     <div class="container">
@@ -14,33 +14,38 @@
             <h1 class="username">동구랑땡전</h1>
             <p class="greeting">안녕하세요.<br><span class="bold">동구랑땡전</span>의 미니홈피입니다.</p>
             <p class="oneword">"윤시윤 잘생김"</p>
-            <!-- 음악 플레이어 추가 -->
+            <!-- 음악 플레이어 제거 및 paper1.jpg 클릭 이벤트 추가 -->
             <div class="turntable-player">
                 <div class="turntable">
-                    <img src="paper1.jpg" alt="앨범 커버" class="album-cover">
+                    <img src="paper1.jpg" alt="앨범 커버" class="album-cover" id="album-cover">
                     <div class="turntable-arm"></div>
                 </div>
-                <audio id="audio-player" controls>
-                    <source src="hello.mp3" type="audio/mp3">
+                <!-- 숨겨진 오디오 태그 -->
+                <audio id="audio-player">
+                    <source src="waytomeinst.mp3" type="audio/mp3">
                 </audio>
+                <div class="main">
+                    <button>메인</button>
+                </div>
+                <div class="menu">
+                    <button>일기장</button>
+                    <button>사진</button>
+                    <button>방명록</button>
+                </div>
             </div>
         </div>
         <div class="main-content">
             <header>
-                <span class="title"><b>동구랑땡전</b>의 미니홈피</span>
+                <span class="title"><b>동 구 랑 땡 전</b> 의 미 니 홈 피</span>
             </header>
             <section class="banner">
-                <h3>20250214~</h3>
+                <h3>2 0 2 5 0 2 1 4 ~</h3>
                 <img src="junhyeok2.jpg" alt="배너 사진" class="banner-img">
                 <p class="caption">"사랑한다는 그 말, 아껴둘걸 그랬죠.
                                     <br>이제 어떻게 내 맘, 표현해야 하나"</p>
+            </section>
+            <P class="copyright">bgm: 내게 오는 길 inst</P>   
         </div>
-        <nav class="menu">
-            <button>메인</button>
-            <button>일기장</button>
-            <button>사진</button>
-            <button>방명록</button>
-        </nav>
     </div>
 </body>
 </html>
