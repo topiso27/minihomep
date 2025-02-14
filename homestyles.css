@@ -16,20 +16,20 @@ body {
 
 
 .container {
-    width: 1200px;
-    height: 800px;
+    width: 960px;
+    height: 640px;
     background: #ffffff;
     border: 5px outset #e4cec0;
     padding: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .sidebar {
     float: left;
-    width: 290px;
-    height: 750px;
+    width: 261px;
+    height: 600px;
     text-align: center;
     padding: 15px;
     background-color: #faf6f3;
@@ -38,11 +38,11 @@ body {
 }
 
 .profile-img {
-    width: 195px auto;
-    height: 195px;
-    margin-bottom: 30px;
+    width: 170px auto;
+    height: 170px;
+    margin-bottom: 15px;
     margin-top: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .bold {
@@ -53,25 +53,24 @@ body {
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 30px;
-    font-size: 45px;
-    border-bottom: 5px solid #e4d3c0;
+    font-size: 30px;
 }
 
 .greeting {
-    font-size: 21px;
-    margin-bottom: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .oneword {
     color: #7b6b58;
-    font-size: 25px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 /*음악 플레이어*/
 /* 턴테이블 스타일 */
 .turntable {
-    width: 225px;
-    height: 225px;
+    width: 200px;
+    height: 200px;
     background-color: #353434;
     border-radius: 50%;
     position: relative;
@@ -107,7 +106,7 @@ body {
 /* 턴테이블의 팔 (Arm) */
 .turntable-arm {
     width: 15px;
-    height: 90px;
+    height: 80px;
     background-color: #777;
     position: absolute;
     top: 65%;
@@ -122,55 +121,53 @@ body {
 /*음악 플레이어*/
 
 .main-content {
-    margin-left: 330px;
+    margin-left: 300px;
 }
 
 header {
     background-color: #f7efea;
     padding: 15px;
-    font-size: 21px;
     border: 5px outset #e4d3c0;
     border-radius: 0px 10px 0px 0px;
 }
 
 .title {
-    font-size: 22.5px;
+    font-size: 20px;
 }
 
 .banner {
-    width: 860px;
-    height: 718px;
+    width: 651px;
+    height: 571px;
     border: 5px outset #e4cec0
 }
 
 .banner h3 {
-    font-size: 22.5px;
-    margin-top: 15px;
+    font-size: 18px;
+    margin-top: 10px;
     border-bottom: 5px solid #e4d3c0;
-    padding-bottom: 9px;
+    padding-bottom: 5px;
     padding-left: 22.5px;
 }
 
 .banner img {
     width: 90%;
     border-radius: 10px;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-bottom: 15px;
 }
 
 .caption {
     text-align: center;
-    font-style: italic;
     color: #555;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .copyright {
-    font-size: 20px;
+    font-size: 15px;
     color: #777;
-    margin-top: 87px;
-    margin-left: 40px;
+    margin-top: 85px;
+    margin-left: 30px;
 }
 
 /* 메뉴 스타일 */
@@ -179,8 +176,8 @@ header {
     position: relative;  /* 상단에서 20px 만큼 떨어진 위치 */
     flex-direction: column;
     display: flex;
-    left: 1200px;
-    bottom: 650px;
+    left: 960.5px;
+    bottom: 590px;
 }
 
 
@@ -206,13 +203,13 @@ header {
     flex-direction: column;
     display: flex;
     gap: 25px;
-    left: 1205px;
-    bottom: 630px;
+    left:965px;
+    bottom: 570px;
 }
 
 
 .menu button {
-    width: 130px;
+    width: 120px;
     height: 70px;
     background-color: #b9a69c;
     padding: 10px;
@@ -230,5 +227,5 @@ header {
 }
 
 .menu button:hover {
-    width: 95px;
+    width: 97px;
 }
