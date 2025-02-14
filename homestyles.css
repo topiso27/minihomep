@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Ownglyph_ParkDaHyun', Arial, sans-serif;
-    background-color: #f6f1ef;
+    background-color: #3f454c;
     margin: 0;
     padding: 0;
     display: flex;
@@ -19,21 +19,22 @@ body {
     width: 960px;
     height: 640px;
     background: #ffffff;
-    border: 5px outset #e4cec0;
+    border: 5px solid #20242f;
     padding: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .sidebar {
     float: left;
-    width: 261px;
+    width: 266px;
     height: 600px;
     text-align: center;
     padding: 15px;
-    background-color: #faf6f3;
-    border: 5px outset #e4cec0;
+    background-color: #e7eef4 ;
+    border: 5px solid  #20242f;
     border-radius: 10px 0px 0px 10px;
 }
 
@@ -62,7 +63,7 @@ body {
 }
 
 .oneword {
-    color: #7b6b58;
+    color: #58647b;
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -71,7 +72,7 @@ body {
 .turntable {
     width: 200px;
     height: 200px;
-    background-color: #353434;
+    background-color: #343435;
     border-radius: 50%;
     position: relative;
     margin: auto;
@@ -125,9 +126,10 @@ body {
 }
 
 header {
-    background-color: #f7efea;
+    background-color: #c9dbef;
     padding: 15px;
-    border: 5px outset #e4d3c0;
+    border-top: 5px solid  #20242f;
+    border-right: 5px solid  #20242f;
     border-radius: 0px 10px 0px 0px;
 }
 
@@ -136,15 +138,15 @@ header {
 }
 
 .banner {
-    width: 651px;
-    height: 571px;
-    border: 5px outset #e4cec0
+    width: 650.5px;
+    height: 573px;
+    border: 5px solid  #20242f
 }
 
 .banner h3 {
     font-size: 18px;
     margin-top: 10px;
-    border-bottom: 5px solid #e4d3c0;
+    border-bottom: 5px solid  #20242f;
     padding-bottom: 5px;
     padding-left: 22.5px;
 }
@@ -166,7 +168,7 @@ header {
 .copyright {
     font-size: 15px;
     color: #777;
-    margin-top: 73px;
+    margin-top: 77px;
     margin-left: 70px;
 }
 
@@ -176,7 +178,7 @@ header {
     position: relative;  /* 상단에서 20px 만큼 떨어진 위치 */
     flex-direction: column;
     display: flex;
-    left: 960.5px;
+    left: 960px;
     bottom: 590px;
 }
 
@@ -186,16 +188,21 @@ header {
     height: 70px;
     background-color: #ffffff;
     padding: 15px;
+
     border-left: 0;
-    border-top: 5px outset #e4cec0;
-    border-right: 5px outset #e4cec0;
-    border-bottom: 5px outset #e4cec0;
+    border-top: 5px solid  #20242f;
+    border-right: 5px solid  #20242f;
+    border-bottom: 5px solid  #20242f;
+
     cursor: pointer;
     text-align: left;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0);
     font-family: 'Ownglyph_ParkDaHyun';
     position: relative;
     font-size: 23px;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .menu {
@@ -211,12 +218,14 @@ header {
 .menu button {
     width: 120px;
     height: 70px;
-    background-color: #b9a69c;
+    background-color: #809cc4;
     padding: 10px;
+
     border-left: 0;
-    border-top: 5px outset #e4cec0;
-    border-right: 5px outset #e4cec0;
-    border-bottom: 5px outset #e4cec0;
+    border-top: 5px solid  #20242f;
+    border-right: 5px solid  #20242f;
+    border-bottom: 5px solid  #20242f;
+
     cursor: pointer;
     text-align: left;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
@@ -224,6 +233,9 @@ header {
     color: #ffffff;
     position: relative;
     font-size: 23px;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .menu button:hover {
