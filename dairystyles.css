@@ -29,12 +29,6 @@ body {
 }
 
 
-.header {
-    background: #c9a69a;
-    color: rgb(255, 255, 255);
-    padding: 20px 0;
-    border-radius: 10px 10px 0 0;
-}
 
 .header h1 {
     margin: 0;

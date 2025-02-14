@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>동구랑땡전의 미니홈피</title>
+    <title>동구랑땡의 미니홈피</title>
     <link rel="stylesheet" href="homestyles.css">
+    <script scr="homescript.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>동구랑땡전의 미니홈피</h1>
+        <div class="sidebar">
+            <img src="2d1n1.gif" alt="프로필 사진" class="profile-img">
+            <h1 class="username">동구랑땡전</h1>
+            <p class="greeting">안녕하세요.<br><span class="bold">동구랑땡전</span>의 미니홈피입니다.</p>
+            <p class="oneword">"윤시윤 잘생김"</p>
         </div>
-        <div class="menu">
-            <button onclick="location.href='dairy.html'">Dairy</button>
-            <button onclick="location.href='#'">Photo</button>
-            <button onclick="location.href='#'">guestbook</button>
+        <div class="main-content">
+            <header>
+                <span class="title"><b>동구랑땡전</b>의 미니홈피</span>
+            </header>
+            <section class="banner">
+                <h3>20250214~</h3>
+                <img src="junhyeok2.jpg" alt="배너 사진" class="banner-img">
+                <p class="caption">"사랑한다는 그 말, 아껴둘걸 그랬죠.
+                                    <br>이제 어떻게 내 맘, 표현해야 하나"</p>
         </div>
-        <div class="content">
-            <h2>소개</h2>
-            <img src="banner.jpg" alt="배너 이미지" id="banner-img">
-            <p>안녕하세요. 동구랑땡전의 미니홈피입니다.</p>
-        </div>
+        <nav class="menu">
+            <button>메인</button>
+            <button>일기장</button>
+            <button>사진</button>
+            <button>방명록</button>
+        </nav>
     </div>
 </body>
 </html>

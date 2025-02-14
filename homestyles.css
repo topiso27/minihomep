@@ -5,92 +5,124 @@
     font-style: normal;
 }
 
-
 body {
-   font-family: 'Ownglyph_corncorn-Rg', Arial, sans-serif;
+    font-family: 'Ownglyph_corncorn-RG', Arial, sans-serif;
+    background-color: #f6f1ef;
     margin: 0;
     padding: 0;
-    background: url('background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
 }
-
 
 .container {
-    max-width: 800px;
-    margin: 50px auto;
-    margin-left: 20px;
-    margin-right: 20px;
-    background: rgba(237, 232, 232, 0.8);
-    padding: none;
+    width: 800px;
+    background: white;
+    border: 5px solid #e4d5c0;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+    float: left;
+    width: 200px;
+    height: 500px;
     text-align: center;
+    padding: 10px;
+    background-color: #faf6f3;
+    border-right: 2px solid #e4cec0;
+    border-radius: 10px 0px 0px 10px;
 }
 
-
-.header {
-    background: #c9a69a;
-    color: rgb(255, 255, 255);
-    padding: 20px 0;
-    border-radius: 10px 10px 0 0;
-}
-
-.header h1 {
-    margin: 0;
-    font-size: 35px;
-}
-
-
-.menu {
-    margin: 20px 0;
-}
-
-.menu button {
-    background: #dab8ac;
-    color: rgb(255, 255, 255);
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    font-family: 'Ownglyph_corncorn-Rg', Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 30px;
-    transition: 0.3s;
-}
-
-.menu button:hover {
-    background: #be998c;
-}
-
-
-.content {
-    margin-top: 20px;
-}
-
-.content h2 {
-    font-size: 20px;
-    color: #333;
-}
-
-#banner-img {
-    width: 90%; 
-    height: auto; 
+.profile-img {
+    width: 130px auto;
+    height: 130px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     border-radius: 10px;
 }
 
-.content p {
-    font-size: 20px;
+.greeting {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.oneword {
+    color: #7b6b58;
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.username {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 30px;
+    border-bottom: 2px solid #e4d3c0;
+}
+
+.main-content {
+    margin-left: 220px;
+}
+
+header {
+    background-color: #f7efea;
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 2px solid #e4d3c0;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.title {
+    font-size: 15px;
+}
+
+.banner h3 {
+    font-size: 16px;
+    margin-top: 15px;
+    border-bottom: 2px solid #e4d3c0;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+.banner img {
+    width: 95%;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
     color: #555;
 }
 
-@media (max-width: 600px) {
-    .container {
-        width: 90%;
-    }
+/* 메뉴 스타일 */
+.menu {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    margin-right: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
-    .menu button {
-        width: 100%;
-        margin: 5px 0;
-    }
+.menu button {
+    width: 80px;
+    background-color: #e4cec0;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Ownglyph_corncorn-RG';
+}
+
+.menu button:hover {
+    background-color: #e4cec0;
+    width: 50px;
 }
