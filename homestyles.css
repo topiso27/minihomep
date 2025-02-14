@@ -12,39 +12,37 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-
-    align-items: flex-start;
-    height: 100vh;
 }
 
 
 .container {
-    width: 800px;
-    height: 530px;
+    width: 1200px;
+    height: 800px;
     background: #ffffff;
     border: 5px outset #e4cec0;
     padding: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .sidebar {
     float: left;
-    width: 192px;
-    height: 500px;
+    width: 290px;
+    height: 750px;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     background-color: #faf6f3;
     border: 5px outset #e4cec0;
     border-radius: 10px 0px 0px 10px;
 }
 
 .profile-img {
-    width: 130px auto;
-    height: 130px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    border-radius: 10px;
+    width: 195px auto;
+    height: 195px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    border-radius: 15px;
 }
 
 .bold {
@@ -53,32 +51,33 @@ body {
 
 .username {
     font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 30px;
-    border-bottom: 2px solid #e4d3c0;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    border-bottom: 5px solid #e4d3c0;
 }
 
 .greeting {
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 21px;
+    margin-bottom: 30px;
 }
 
 .oneword {
     color: #7b6b58;
-    margin-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 15px;
 }
 /*음악 플레이어*/
 /* 턴테이블 스타일 */
 .turntable {
-    width: 150px;
-    height: 150px;
+    width: 225px;
+    height: 225px;
     background-color: #353434;
     border-radius: 50%;
     position: relative;
     margin: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    top: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    top: 22.5px;
 }
 
 .album-cover {
@@ -88,7 +87,7 @@ body {
     object-fit: cover;
     position: relative;
     top: 25%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 .album-cover.playing {
@@ -107,8 +106,8 @@ body {
 
 /* 턴테이블의 팔 (Arm) */
 .turntable-arm {
-    width: 10px;
-    height: 70px;
+    width: 15px;
+    height: 90px;
     background-color: #777;
     position: absolute;
     top: 65%;
@@ -117,61 +116,61 @@ body {
     transform: rotate(45deg);
     border-radius: 3px;
     z-index: 1;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
-#audio-player {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 25px;
-    outline: none;
-    border: none;
-    left: 10%;
-    display: block;
-}
 /*음악 플레이어*/
 
 .main-content {
-    margin-left: 220px;
+    margin-left: 330px;
 }
 
 header {
     background-color: #f7efea;
-    padding: 10px;
-    font-size: 14px;
+    padding: 15px;
+    font-size: 21px;
     border: 5px outset #e4d3c0;
     border-radius: 0px 10px 0px 0px;
 }
 
 .title {
-    font-size: 15px;
+    font-size: 22.5px;
 }
 
 .banner {
-    width: 570px;
-    height: 475px;
+    width: 860px;
+    height: 718px;
     border: 5px outset #e4cec0
 }
 
 .banner h3 {
-    font-size: 16px;
+    font-size: 22.5px;
     margin-top: 15px;
-    border-bottom: 2px solid #e4d3c0;
-    padding-bottom: 5px;
-    padding-left: 15px;
+    border-bottom: 5px solid #e4d3c0;
+    padding-bottom: 9px;
+    padding-left: 22.5px;
 }
 
 .banner img {
     width: 90%;
     border-radius: 10px;
-    margin-left: 20px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
 
 .caption {
     text-align: center;
     font-style: italic;
     color: #555;
+    font-size: 30px;
+}
+
+.copyright {
+    font-size: 20px;
+    color: #777;
+    margin-top: 87px;
+    margin-left: 40px;
 }
 
 /* 메뉴 스타일 */
@@ -180,17 +179,16 @@ header {
     position: relative;  /* 상단에서 20px 만큼 떨어진 위치 */
     flex-direction: column;
     display: flex;
-    gap: 10px;
-    left: 804.5px;
-    bottom: 460px;
+    left: 1200px;
+    bottom: 650px;
 }
 
 
 .main button {
-    width: 75px;
-    height: 35px;
+    width: 100px;
+    height: 70px;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 15px;
     border-left: 0;
     border-top: 5px outset #e4cec0;
     border-right: 5px outset #e4cec0;
@@ -200,21 +198,22 @@ header {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0);
     font-family: 'NeoDunggeunmoPro-Regular';
     position: relative;
+    font-size: 23px;
 }
 
 .menu {
     position: relative;  /* 상단에서 20px 만큼 떨어진 위치 */
     flex-direction: column;
     display: flex;
-    gap: 10px;
-    left: 810px;
-    bottom: 450px;
+    gap: 25px;
+    left: 1205px;
+    bottom: 630px;
 }
 
 
 .menu button {
-    width: 78.5px;
-    height: 35px;
+    width: 130px;
+    height: 70px;
     background-color: #b9a69c;
     padding: 10px;
     border-left: 0;
@@ -227,8 +226,9 @@ header {
     font-family: 'NeoDunggeunmoPro-Regular';
     color: #ffffff;
     position: relative;
+    font-size: 23px;
 }
 
 .menu button:hover {
-    width: 70px;
+    width: 95px;
 }
