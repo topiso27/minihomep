@@ -23,8 +23,8 @@ body {
 .container {
     width: 960px;
     height: 640px;
-    background: #fbf7f5;
-    border: 2px solid#69605c;
+    background: #fbf8f5;
+    border: 2px solid#69645c;
     padding: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -38,8 +38,8 @@ body {
     height: 600px;
     text-align: center;
     padding: 15px;
-    background-color: #efe2dc ;
-    border: 2px solid #69605c;
+    background-color: #efe6dc ;
+    border: 2px solid #69645c;
     border-radius: 5px 0px 0px 5px;
 }
 
@@ -61,7 +61,7 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 30px;
-    border-bottom: 3px solid #7b6858;
+    border-bottom: 3px solid #7b6b58;
     padding-bottom: 10px;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 .oneword {
-    color: #7b6858;
+    color: #7b6b58;
     font-size: 20px;
     margin-bottom: 5px;
 }
@@ -135,9 +135,11 @@ body {
 }
 
 header {
-    background-color: #dfcabf;
+    background-color: #dfd2bf;
     padding: 10px;
-    border: 2px solid #69605c;
+    border-top: 2px solid#69645c;
+    border-right: 2px solid#69645c;
+    border-left: 2px solid#69645c;
     border-radius: 5px 5px 0px 0px;
     margin-left: 10px;
 }
@@ -150,7 +152,7 @@ header {
 .banner1 {
     width: 647px;
     height: 124px;
-    border: 2px solid #69605c;
+    border: 2px solid #69645c;
     margin-left: 10px;
     background-color: #ffffff;
 }
@@ -163,7 +165,7 @@ header {
 .banner2 {
     width: 647px;
     height: 445px;
-    border: 2px solid #69605c;
+    border: 2px solid #69645c;
     margin-left: 10px;
     margin-top: 10px;
     border-radius: 0px 5px 5px 0px;
@@ -184,7 +186,7 @@ header {
     display: block; margin: auto;
     width: 80%;
     border-radius: 5px;
-    border: 3px solid #7b6858;
+    border: 3px solid #7b6b58;
 }
 
 
@@ -212,9 +214,9 @@ header {
     padding: 15px;
 
     border-left: 0;
-    border-top: 2px solid#69605c;
-    border-right: 2px solid#69605c;
-    border-bottom: 2px solid#69605c;
+    border-top: 2px solid#69645c;
+    border-right: 2px solid#69645c;
+    border-bottom: 2px solid#69645c;
 
     text-align: left;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0);
@@ -239,13 +241,13 @@ header {
 .menu button {
     width: 120px;
     height: 70px;
-    background-color: #c4a28c;
+    background-color: #c3ab8c;
     padding: 10px;
 
     border-left: 0;
-    border-top: 2px solid#69605c;
-    border-right: 2px solid#69605c;
-    border-bottom: 2px solid#69605c;
+    border-top: 2px solid#69645c;
+    border-right: 2px solid#69645c;
+    border-bottom: 2px solid#69645c;
 
     text-align: left;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
